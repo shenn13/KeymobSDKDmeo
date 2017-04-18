@@ -39,7 +39,9 @@
 
 -(void)InterstitialButtonClicked{
     
-     [AdManager sharedInstance].controller=self;
+    [AdManager sharedInstance].controller=self;
+    
+    
     
     if([[AdManager sharedInstance] isInterstitialReady]){
         
