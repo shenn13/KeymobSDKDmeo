@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [AdManager sharedInstance].controller=self;
+//    [AdManager sharedInstance].controller=self;
     
     [AdManager sharedInstance].listener=[[AdListener alloc] init];
     
@@ -40,8 +40,6 @@
 -(void)InterstitialButtonClicked{
     
     [AdManager sharedInstance].controller=self;
-    
-    
     
     if([[AdManager sharedInstance] isInterstitialReady]){
         

@@ -80,6 +80,7 @@ static NSString* EVENT_ON_OTHER_EVENT=@"onOtherEvent" ;
 @protocol IBannerPlatform
 -(void) showBannerABS:(int)sizeType atX:(int)_x atY:(int)_y withController:(UIViewController*) controller;
 -(void) showRelationBanner:(int)sizeType atPosition:(int)_p withOffY:(int)_y withController:(UIViewController*) controller;
+
 -(void) removeBanner;
 @end
 

@@ -43,7 +43,7 @@
 -(void)buttonClicked{
     
     
-    [[AdManager sharedInstance] showRelationBanner:KM_SIZE_TYPE_LARGE_BANNER atPosition:KM_BANNER_POSITIONS_BOTTOM_CENTER withOffY:64 withController:self];
+    [[AdManager sharedInstance] showRelationBanner:KM_SIZE_TYPE_BANNER atPosition:KM_BANNER_POSITIONS_BOTTOM_CENTER withOffY:64 withController:self];
     
 //     [[AdManager sharedInstance] removeBanner];
     
